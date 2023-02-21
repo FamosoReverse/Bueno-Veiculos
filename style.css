@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+/* mobile */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+/* Cabeça */
+
+header{
+    background-image: linear-gradient(to top, red, rgba(43, 1, 1, 0.801));
+    width: 100vw;
+    height: 300px;
+    position: relative;
+}
+
+header > img{
+    width: 250px;
+    background-attachment: fixed;
+    background-size: contain;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.726);
+}
+
+header > menu > nav > a{
+   text-decoration: none;
+   color: rgb(0, 0, 0);
+   width: 55px;
+   padding: 5px;
+   background-color: rgba(209, 81, 6, 0.747);
+   border-radius: 3px;
+   font-weight: 300;
+   margin-left: 10px;
+   
+   
+}
+
+header > menu > nav > a:hover{
+    background-color: #FD920D;
+    font-weight: bold;
+}
+
+menu{
+    position: absolute;
+   top: 278px;
+   left: 50%;
+   transform: translate(-50%);
+}
